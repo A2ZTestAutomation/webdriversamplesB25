@@ -17,6 +17,7 @@ public class WebTableTest {
 				By.xpath("//td[contains(text(), 'B. Wagner')]//following-sibling::td[5]")).getText();
 		System.out.println("Salary : " + strSalary);
 		System.out.println("Modified By Tester2");
+		System.out.println("Modified in Phase2");
 
 	}
 
