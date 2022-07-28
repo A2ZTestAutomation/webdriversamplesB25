@@ -16,7 +16,7 @@ public class WebTableTest {
 		String strSalary = driver.findElement(
 				By.xpath("//td[contains(text(), 'B. Wagner')]//following-sibling::td[5]")).getText();
 		System.out.println("Salary : " + strSalary);
-	
+		System.out.println("Modified By Tester2");
 
 	}
 
